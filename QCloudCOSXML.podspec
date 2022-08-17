@@ -16,7 +16,7 @@ s.version              = "6.1.3"
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = "10.12"
 
-  s.static_framework = true
+#  s.static_framework = true
 
   s.default_subspec = 'Default'
   s.subspec 'Default' do |default|

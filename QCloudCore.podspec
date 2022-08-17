@@ -38,7 +38,7 @@ QCloudCore--腾讯云iOS-SDK Foundation。提供腾讯云iOS相关SDK的基础�
   s.osx.deployment_target = "10.12"
   s.frameworks ='CoreMedia', "Accelerate", "SystemConfiguration"
   s.libraries = "z","c++"
-  s.static_framework = true
+#  s.static_framework = true
     s.default_subspec = 'Default'
     s.subspec 'Default' do |default|
         default.source_files = 'QCloudCore/Classes/Base/**/*'
